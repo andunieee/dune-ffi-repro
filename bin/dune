@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (flags :standard -cclib -lsecp256k1)
+ (libraries dune_ffi_repro))
