@@ -1,4 +1,4 @@
 (library
  (name dune_ffi_repro)
- (c_library_flags -lsecp256k1)
+ (c_library_flags -Wl,--no-as-needed -lsecp256k1)
  (libraries ctypes ctypes-foreign))
